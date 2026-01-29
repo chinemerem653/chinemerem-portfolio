@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: whitesmoke;
+    color: #333;
+}
+
+nav 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: #222;
+}
+
+nav .logo{
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.home {
+    text-align: center;
+    padding: 60px 20px;
+    background: #fff;
+}
+
+.home img {
+    width: 150px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+.home span {
+    color: #007bff;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+.skill-box span {
+    display: inline-block;
+    background: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+
+.project {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    width: 150px;
+    border-radius:8px ;
+    box-shadow: 0 0 10 px rgba(red, green, blue, alpha);
+}
+
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
